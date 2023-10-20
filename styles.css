@@ -87,9 +87,9 @@ ul {
       -webkit-transform: translateX(100%);
     }
     to {
-      transform: translateX(-100%);
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
+      transform: translateX(-200%);
+      -moz-transform: translateX(-200%);
+      -webkit-transform: translateX(-200%);
     }
   }
 
@@ -110,9 +110,11 @@ ul {
 }
 
 .about-section {
-    padding-top: 40%;
+    
     max-width: 60ch;
-
+    float: right;
+    margin: 0;
+    padding-top: 40px;
 }
 
 .social-media {
