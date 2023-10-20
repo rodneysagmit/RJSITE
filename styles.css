@@ -1,6 +1,5 @@
 *{
     font-family: 'Bodoni Moda', serif;
-
 }
 
 body{
@@ -69,7 +68,7 @@ ul {
 
 .name-marquee {
     font-family: 'Six Caps', sans-serif;
-    animation: name-marquee 15s infinite linear;
+    animation: name-marquee 20s infinite linear;
     position: absolute;
     z-index:-1;
     white-space: nowrap;
@@ -89,6 +88,7 @@ ul {
     max-width: 1200px;
     position: absolute;
     margin: 0;
+
   }
 
 .profile-picture-image {
@@ -96,6 +96,7 @@ ul {
     max-height: 100%;
     margin: 0;
     padding: 0;
+    border-bottom: 5px solid hsl(0, 0%, 10%);
 }
 
 .about-section {
