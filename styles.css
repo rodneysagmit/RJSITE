@@ -1,6 +1,6 @@
 *{
     font-family: 'Bodoni Moda', serif;
-    font-family: 'Rock Salt', cursive;
+
 }
 
 body{
@@ -9,11 +9,14 @@ body{
 
 h1{
     color: black;
-
+    font-size: 5em;
+    text-transform: uppercase;
 }
 
 h2{
     color: black;
+    font-size: 3em;
+    text-transform: uppercase;
 }
 
 p{
@@ -28,11 +31,11 @@ header{
 
 footer{
     background-color: gray;
+
 }
 
 footer p{
-    margin: 0;
-    text-align: center;
+    width: 100%;
 }
 
 ul {
@@ -63,4 +66,22 @@ ul {
 .navigation-bar a.active {
     background-color: #04AA6D;
     color: white;
+  }
+
+  .footer-content p {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+  }
+
+  .social-media {
+
+    overflow: hidden;  
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .profile-picture {
+    float: left;
+    height: 600px;
+    border: 10px solid #555;
   }
