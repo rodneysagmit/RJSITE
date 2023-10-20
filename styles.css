@@ -4,12 +4,12 @@
 }
 
 body{
-    background-color: lightslategray;
+    background-color: hsl(0, 0%, 85%);
 }
 
 h1{
-    color: black;
-    font-size: 5em;
+    color: hsl(0, 0%, 15%);
+    font-size: 25em;
     text-transform: uppercase;
 }
 
@@ -26,7 +26,6 @@ p{
 
 header{
     background-color: gray;
-
 }
 
 ul {
@@ -59,10 +58,52 @@ ul {
     color: white;
   }
 
-.footer-content p {
-    font-family: 'Rock Salt', cursive;
-    text-align: center;
+.hero {
+    min-height: 100vh;
+}
+
+.name-container {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.name-marquee {
+    font-family: 'Six Caps', sans-serif;
+    animation: name-marquee 15s infinite linear;
+    position: absolute;
+    z-index:-1;
+    white-space: nowrap;
   }
+
+@keyframes  name-marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+.profile-picture {
+    float: left;
+    max-width: 1200px;
+    position: absolute;
+    margin: 0;
+  }
+
+.profile-picture-image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    padding-top: 40%;
+    max-width: 60ch;
+    float: right;
+
+}
 
 .social-media {
     overflow: hidden;  
@@ -70,22 +111,14 @@ ul {
     font-size: 17px;
   }
 
-.profile-picture {
-    float: left;
-    max-width: 1200px;
-    margin: 0;
-  }
-
-  .profile-picture-image {
-    max-width: 100%;
-    max-height: auto;
-    margin: 0;
-    padding: 0;
-}
-
 footer {
     background-color: gray;
 }
+
+.footer-content p {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+  }
 
 footer p{
     width: 100%;
