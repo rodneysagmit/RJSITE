@@ -27,8 +27,9 @@ p{
 }
 
 header{
-    background-color: hsl(0, 0%, 40%);
+    background-color: #ffffff;
     max-width: 2160px;
+    margin: 0;
 }
 
 ul {
@@ -38,14 +39,14 @@ ul {
   }
   
 .navigation-bar{
-    background-color: hsl(0, 0%, 15%);
+    background-color: hsl(0, 0%, 85%);
     margin: 0;
     overflow: hidden;  
 }
 
 .navigation-bar a{
     float: right;
-    color: #f2f2f2;
+    color: hsl(0, 0%, 0%);
     text-align: center;
     padding: 14px 14px;
     text-decoration: none;
@@ -53,27 +54,20 @@ ul {
 }
 
 .navigation-bar a:hover{
-    background-color: hsl(0, 0%, 85%);
+    background-color: hsl(0, 0%, 65%);
     color: hsl(0, 0%, 0%);
 }
 
 .navigation-bar a.active {
     background-color: hsl(158, 95%, 34%);
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
   }
 
-.hero {
-    min-height: 100vh;
-    max-width: 2160px;
-    margin: auto;
-    padding: 0;
-
-}
-
-.name-container {
-    width: 99vw;
+  .name-container {
+    width: 96vw;
     max-width: 2160px;
     position: absolute;
+    top: 0px;
     overflow: hidden;
     z-index:-1;
     margin: 0;
@@ -106,9 +100,23 @@ ul {
     }
   }
 
+.hero {
+    min-height: 100vh;
+    max-width: 2160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    background-color: hsla(200, 50%, 30%, 0.6);
+    border-radius: 40px;
+}
+
 .profile-picture {
     float: left;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0;
     position: relative;
 
@@ -123,29 +131,27 @@ ul {
 }
 
 .about-section {
-    
-    max-width: 60ch;
-    float: right;
+    font-size: 2em;
+    font-weight: bold;
     margin: 0;
-    padding: 40px 40px;
-    font-size: 1.6em;
+    padding: 10px;
+    position: relative;
 }
 
-.social-media {
-    overflow: hidden;  
-    text-decoration: none;
-    font-size: 16px;
-  }
-
 footer {
-    background-color: gray;
+    background-color: hsl(0, 0%, 60%);
 }
 
 .footer-content p {
     font-family: 'Rock Salt', cursive;
     text-align: center;
+    margin: auto;
   }
 
-footer p{
-    width: 100%;
+  .social-media {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
+/* Need to add social media icons */
