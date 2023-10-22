@@ -82,9 +82,9 @@ ul {
     text-transform: uppercase;
     white-space: nowrap;
     margin: 0;
-    animation: name-marquee 30s linear infinite; 
-    -moz-animation: name-marquee 30s linear infinite;
-    -webkit-animation: name-marquee 30s linear infinite;
+    animation: name-marquee 20s linear infinite; 
+    -moz-animation: name-marquee 20s linear infinite;
+    -webkit-animation: name-marquee 20s linear infinite;
 
   }
 
@@ -157,4 +157,7 @@ footer {
     justify-content: center;
     gap: 1rem;
 }
-/* Need to add social media icons */
+
+.social-media img {
+    width: 25px;
+}
