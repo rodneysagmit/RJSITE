@@ -4,7 +4,6 @@
 
 
 body{
-    background-color: hsl(0, 0%, 85%);
     max-width: 2160px;
     margin: auto;
 }
@@ -28,7 +27,6 @@ p{
 }
 
 header{
-    background-color: #ffffff;
     max-width: 2160px;
     margin: 0;
 }
@@ -40,7 +38,6 @@ ul {
   }
   
 .navigation-bar{
-    background-color: hsl(0, 0%, 85%);
     margin: 0;
     overflow: hidden;  
 }
