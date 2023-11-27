@@ -1,6 +1,6 @@
 :root {
     --text: hsl(0, 0%, 0%);
-    --background: hsl(30, 13%, 94%);
+    --background: hsl(240, 11%, 96%);
 
     --bg-primary: hsl(207, 28%, 70%);
     --bg-secondary: hsl(240, 14%, 85%);
@@ -117,6 +117,7 @@ header label {
 .profile-picture {
     max-width: 1000px;
     margin: auto;
+    padding: 0;
     position: relative;
 }
 
@@ -161,14 +162,16 @@ header label {
     }
 }
 /* END HERO SECTION */
+
+/* BODY CONTENT */
 .container {
     max-width: 2160px;
     margin: auto;
     padding: 1em;
 }
 
-.portfolio-projects {
-    background-color: #f5f5f7;
+.portfolio-projects, .resume, .contact {
+    background-color: var(--background);
 }
 
 .cards {
@@ -190,16 +193,6 @@ header label {
     padding: 5px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
-
-
-.resume {
-    background-color: #f5f5f7;
-}
-
-.contact {
-    background-color: #f5f5f7;
-}
-
 
 /* START FOOTER SECTION */
 footer {
