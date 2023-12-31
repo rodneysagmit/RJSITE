@@ -194,6 +194,11 @@ header label {
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
+.card-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
 /* START FOOTER SECTION */
 footer {
     margin-top: 50px;
